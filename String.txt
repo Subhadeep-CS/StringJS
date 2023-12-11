@@ -52,3 +52,34 @@ Task==>2
 
 3.Declare a string and check the string is immutable in nature.
 
+How to convert Number to string.
+
+Here is two approch that we may follow while we convert a Number to string
+
+Approach 1. By adding a empty string we can convert number to string.
+
+Approach 2. By using wrapper object we can convert the type that's called 
+expliclit type conversion.
+
+How to concating string?
+
+By using plus operator(+) we can concating the string.
+
+const str="I am a dog" + s;
+
+Is string object or primitive data type?
+
+Now,string is primitive data type. but question is that if string is primitive data type
+then how we can use property and method.
+
+The fact is that for all the data type javascript has an inbuilt object called wrapper
+object. when we use length property. By using wrapper object javascript compiler
+internally convert that primitive into string object,once it's converted into string
+object all the method and property of string object available for the string primitive.
+
+It's an temporary object,once all operation will done,javascript discarded that object.
+
+What is templatestring?
+
+=>Template literal are literal enclosed by ``(backtrics),allowing for multiline string
+and you can embed a expression by using ${expression}.

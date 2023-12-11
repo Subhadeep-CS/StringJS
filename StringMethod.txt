@@ -1,0 +1,120 @@
+Here we discuss about important method of string 
+
+1. length => It's not a method but It's a property of string object.we get the length of 
+the string by using length property.
+
+ex=> console.log(string_name.length);
+
+2.toLowerCase()=> toLowerCase case method convert all character of string in lowecase
+and generate a new string.
+
+ex=>string_name.toLowerCase()
+
+3.toUpperCase()=> toUpperCase case method convert all character of string in uppercase
+and generate a new string.
+
+ex=>string_name.toUpperCase()
+
+Task=>1
+
+Declare a  string and convert all the character in lowecase and all the character in uppercase
+
+4.trimEnd() => trimEnd method removes the whitespace from the end of the string and
+generate a new string.
+
+ex=>string_name.trimEnd();
+
+5.trimStart()=> trimStart method removes whitespace from the start of the string and
+generate a new string.
+
+ex=>string_name.trimStart()
+
+6.trim()=> trim method removes whitespace from the both end of the string and generate
+a new string.
+
+ex=>string_name.trim()
+
+7.includes() => includes method perfrom a case-sensitive search and return true if it's
+find that string and false if it's not not found the item.
+
+Syntax=>includes(pramater)=> paramter== string
+
+Task 2=>declare a string name s,where assign the value I am a boy and check whether
+it contain the Boy and am.
+
+8.startsWith()=>inside the startWith we passed a string as a paramter and it check
+whether the string start with that string and return a boolean value.
+
+If the string start with that string we get true otherwise we get false
+
+Syntax=>s.startsWith(string);
+
+9.endsWith()=>inside the endsWith we pass a string as a paramter and it check whether
+that string ends with that specified string and return a boolean value.
+
+Syntax=s.endsWith(string);
+
+10.indexOf()=>inside the indexOf we pass a string as parameter and it return the index of
+first occurance from string.
+
+We also have a optional parameter that's position,that specifies from where the search
+will start.By default the position is 0.
+
+Syntax=>s.indexOf("string");
+
+11.lastIndexOf()=>inside the lastIndexOf we pass a string as a parameter and it return the
+last occurance from string.
+
+Syntax=>s.lastIndexOf("string");
+
+12.replace()=>replace method takes two string as parameter one is which you want to be replace
+and another is which word you want to add.It will replace only the first occurance.
+
+Syntax=>s.replace("dog","god")
+
+13.replaceAll()=>works same as replace but replace the all position.
+
+Syntax=>s.replaceAll("dog","god");
+
+14. repeat()=> repeat method takes a integer as a parameter and it will generate a new
+string with repeating that number of times.
+
+if we specifies some negative value in parameter we get RangeError exception.
+
+15.slice()=> slice method takes two thing as argument start_index and end_index and
+generate a new string from start_index to end_index-1.
+
+ex=>
+
+var s="String";
+
+s.slice(0,3);==> we get 0,1,2 index value means we get str.
+
+facts of slice
+
+1.if(start_index>=length_of_string)  we get empty string.
+
+var s="String";
+s.slice(6,5);==> we get empty string.
+
+2.if(start_index<0) the count will start from the end of the string
+
+4. if index start is ommitted by default it's specifies the 0
+
+5.if index end is ommitted by default it takes length of the string.
+
+6. if index<0 index is counted at the end o the string.
+
+7. if index_end<=index_start after normalize it returns empty string.
+
+16 subString()=> it works same as slice but facts is different.
+
+if indexstart is greater than indexend it will swap the value internally and produce
+the result.
+
+if index_start=index_end subString return a empty string.
+
+17. split=> taes a pattern and divdes all the string into and order list of subString
+and push it into an array and return that array.
+
+Task=> count the number of word in a sentence and print those word in console.
