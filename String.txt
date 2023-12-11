@@ -1,0 +1,54 @@
+What is String?
+
+String is a sequence of character enclosed by single or double quotes.
+
+Example=> "I am a good boy" It's a string.
+
+How we declare string in Javascript?
+
+Syntax:-
+
+var/let/const variable_name="Subho";
+
+In javascript every character of string denoted by a special number,called index.Now,in javascript
+String is 0-index based means that first_character in string is in 0-index and the last
+character of string is in the (length-1) index.
+
+Example=>
+
+var s="String";
+
+index       character
+0               S
+1               t
+2               r
+3               i
+4               n
+5               g
+
+So,the first index is 0 and the last index is length-1.
+
+How to calculate length of the string?
+
+We have a property called length inside the String object in javascript.By using
+length property we calculate the length of the string.
+
+console.log(s.length); //we get length of the string in console
+
+Task ==> 1
+
+1.Print the length of the String in console and print the all character of the string 
+in console.
+
+
+2.Take a sentence and print the all character but no space printed in console.
+
+String immutibility:-
+
+In javascript,String is immutable in nature,that means once we create a string then the 
+value of the string cannot be changed without re-assign it.
+
+Task==>2
+
+3.Declare a string and check the string is immutable in nature.
+
